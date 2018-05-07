@@ -306,7 +306,8 @@
     color: #e2557a;
 }
 nav.navbar {
-  box-shadow: 0 10px 10px 0 #e6e7eb;
+  /*box-shadow: 0 10px 10px 0 #e6e7eb;*/
+  box-shadow: 3px 8px 18px 1px rgba(221, 221, 221, 0.77);
   padding: 0.8rem 3rem;
 }
 .navbar-brand {
@@ -628,6 +629,7 @@ a:hover{
 }
 .signup-holder .btn-circle {
     text-align: center;
+    font-family: 'AvenirNext LT Pro';
     padding: 14px 20px;
     font-size: 14px;
     background: transparent;
@@ -638,15 +640,17 @@ a:hover{
     border: 1px solid #e7e4ef;
 }
 .signup-holder .btn-circle span{
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  font-family: 'AvenirNext LT Pro';
+  height: 20px;
   border-radius: 50%;
   display: inline-block;
   background: #e9e3ef;
   color: #000;
   margin-right: 5px;
-  line-height: 18px;
+  line-height: 23px;
   text-align: center;
+  font-size: 12px;
 }
 .signup-holder .stepwizard-row .btn-success span{
   background: #e2567b;
@@ -690,8 +694,11 @@ a:hover{
 .form-control{
   border: 1px solid #e9e6f1;
   box-shadow: none;
-  height: 50px !important;
+  height: 47px !important;
   border-radius: 8px;
+  color: #bcb7cb;
+  font-size: 14px;
+  font-family: 'AvenirNext LT Pro'
 }
 .signup-holder .btn-primary{
   background: #e2547a;
@@ -699,6 +706,7 @@ a:hover{
   border: none;
   font-size: 15px;
   padding: 15px;
+  line-height: 23px;
     border-radius: 10px;
     margin-top: 10px;
      font-family: 'AvenirNext LT Pro';
@@ -723,6 +731,7 @@ a:hover{
 .upload-user-pic a{
   text-transform: uppercase;
   font-size: 14px;
+  font-family: 'AvenirNext LT Pro';
 }
 .pd-30{
   padding-top: 30px;
@@ -905,5 +914,139 @@ input[type=checkbox], input[type=radio]{
   }
   .signup-holder .shadow-box{
     padding: 20px
+  }
+}
+#inboxModal a{
+  text-transform: uppercase;
+  font-family: 'AvenirNext LT Pro'
+}
+
+.selectric{
+  border:1px solid #e9e6f1;
+  border-radius: 8px;
+  background: none
+}
+.selectric .button{
+  background: transparent;
+  text-align: right;
+  right: -12px;
+}
+.selectric .label{
+  height: 45px;
+  font-family: 'AvenirNext LT Pro';
+  line-height: 46px;
+  font-size: 14px;
+  color: #495057;
+  margin-left: 15px;
+}
+.selectric .button:after{
+  border-top-color: #000;
+}
+.form-control:focus{
+  box-shadow: none;
+  color: #bcb7cb;
+  /*border: none;*/
+}
+.selectric-items{
+  background: #fff;
+  top: 90%;
+  z-index: 1;
+}
+input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #bcb7cb;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #bcb7cb;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #bcb7cb;
+}
+.input-group>.custom-select:not(:last-child), .input-group>.form-control:not(:last-child){
+     border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.datepicker td, .datepicker th{
+      padding: 6.40px;
+}
+.header .mega-menu{
+  position: static;
+}
+.header .dropdown-menu {
+    width: 100%;
+    margin: 20px 0;
+    border: none;
+    border-radius: 0;
+    box-shadow: 0px 5px 9px -2px rgba(221, 221, 221, 0.77);
+  }
+.header .dropdown-menu .dropdown-content{
+  padding: 20px 60px;
+}
+.header .dropdown-menu .dropdown-content ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.header .dropdown-menu .dropdown-content ul li {
+  margin-bottom: 15px;  
+}
+.header .dropdown-menu .dropdown-content ul li a{
+
+  color:#272337;
+  font-size: 20px;
+ font-family: 'AvenirNext LT Pro';
+  display: block;
+}
+.header .dropdown-menu .dropdown-content ul li a:hover{
+  color: #e2567b
+}
+.header .dropdown-menu .dropdown-content h6{
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #bab6c6;
+}
+.header .dropdown-menu .dropdown-content img{
+  border-radius: 5px;
+  width: 100%;  
+}
+.pd-l-0{
+  padding-left: 0;
+}
+.header .dropdown-menu .dropdown-content .image-list p{
+  font-size: 18px;
+  margin-bottom: 0;
+  margin-top: 15px;
+  line-height: 20px;  
+}
+
+.dropdown-item{
+      white-space: initial;
+}
+.header .without-add .dropdown-menu{
+      width: 55%;
+    margin: 0px auto;
+    border: none;
+    border-radius: 0;
+    /*box-shadow: 3px 8px 18px 1px rgba(221, 221, 221, 0.77);*/
+     box-shadow: 0px 5px 9px -2px rgba(221, 221, 221, 0.77);
+    border-radius: 10px;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+
+}
+.header .without-add .dropdown-menu .dropdown-content ul li a{
+  font-size: 18px;
+}
+@media only screen and (max-width: 768px){
+  .header .dropdown-menu .dropdown-content{
+    padding: 0 0;
+  }
+  .header .dropdown-menu .dropdown-content ul li a{
+    font-size: 15px;
   }
 }
