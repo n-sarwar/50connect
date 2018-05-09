@@ -189,6 +189,9 @@
     font-weight: 300;
     font-style: normal;
 }
+body{
+    font-family: 'AvenirNext LT Pro';
+}
 .button {
 	display: inline-block;
 	margin: 4px 2px;
@@ -1049,4 +1052,385 @@ input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   .header .dropdown-menu .dropdown-content ul li a{
     font-size: 15px;
   }
+}
+
+
+
+/*==================================*/
+/* profile-main */
+/*==================================*/
+.profile-page{
+  padding-bottom: 0;
+}
+.tab-content>.active{
+  opacity: 1;
+}
+.profile-main{
+  padding: 40px 30px
+}
+.ps-re{
+  position: relative;
+}
+.edit-icon-i{
+  position: absolute;right: 15px;
+  bottom: 5px;
+}
+.pd-t-10{
+  padding-top: 0px;
+}
+.pd-t-20{
+  padding-top: 20px;
+}
+.user-img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+}  
+.profile-main .profile-banner{
+ 
+}
+.profile-main  .editable-banner{
+    width: 100%;
+    padding: 20px;
+    height: 250px;
+    background-repeat: no-repeat;
+      -webkit-box-shadow: 0px 2px 12px 3px rgba(221, 221, 221, 0.77);
+    -moz-box-shadow: 0px 2px 12px 3px rgba(221, 221, 221, 0.77);
+    box-shadow: 0px 2px 12px 3px rgba(221, 221, 221, 0.77);
+    border-radius: 5px;
+}
+.profile-text{
+  color: #fff;
+  font-family: 'AvenirNext LT Pro';
+}
+.profile-text .btn-info{
+  background: #c17290;
+  border-radius: 25px;
+  text-transform: uppercase;
+  border: none;
+  padding: 5px 10px 3px;
+  font-size: 12px;
+}
+.profile-text  .btn-outline-secondry{
+  color: #fff;
+  border: 2px solid #fff;
+  background: transparent;
+  border-radius: 8px;
+  padding: 8px 12px 5px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.profile-main .profile-left{
+  padding: 20px 0;
+}
+.profile-main .profile-left .nav-link{
+  padding-left: 0;
+  padding-right: 0;
+}
+.profile-main .profile-left .profile-box{
+  background: #fff;
+    -webkit-box-shadow: 0px 2px 12px 3px rgba(231, 231, 231, 0.77);
+    -moz-box-shadow: 0px 2px 12px 3px rgba(231, 231, 231, 0.77);
+    box-shadow: 0px 2px 12px 3px rgba(231, 231, 231, 0.77);
+    padding: 15px 20px;
+    border-radius:10px; 
+    margin-bottom: 30px;
+
+}
+.profile-main .profile-left .profile-box p{
+  margin-bottom: 0;
+}
+.profile-main .profile-left .nav-link{
+  color: #bdb8ca;
+  margin-right: 30px;
+  font-size: 20px;
+  padding-bottom: 0;
+}
+.profile-main .profile-left .nav{
+  margin-bottom: 30px;
+}
+.profile-main .profile-left .nav-item{
+  /*margin-right: 8px;*/
+}
+.profile-main .profile-left .nav-link span{
+    background: #e3e0ec;
+    color: #666173;
+    font-family: 'AvenirNext LT Pro';
+    font-size: 12px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 18px;
+    text-align: center;
+    padding: 1px;
+    vertical-align: top;
+    margin: 5px 0 0;
+
+}
+.profile-main .profile-left .nav-link.active{
+    color: #070f2b;
+    border-bottom: 4px solid #d43b68;
+}
+.profile-main .profile-left .tab-content h4{
+  color: #bdb8ca;
+  font-size: 16px;
+}
+.profile-right{
+  padding: 20px 0;
+}
+.pd-t-15{
+  padding-top: 15px;
+}
+.profile-main .profile-left .tab-content h4.text-up{
+  text-transform: uppercase;
+  font-size: 13px;
+  margin-bottom: 2px;
+}
+.profile-main .profile-left .tab-content .lg-text{
+  font-size: 20px;
+}
+.profile-main .profile-left .nav-link.active span{
+  background: #6d7288;
+  color: #fff;
+}
+.profile-box .btn-login{
+  padding: 8px 10px 6px;
+  font-weight: normal;
+  font-size: 14.5px;
+}
+.br-8{
+  border-radius: 8px;
+}
+.w-100{
+  width: 81px !important;
+  height: 81px !important;
+}
+.m-b-30{
+  margin-bottom: 30px;
+}
+.btn-login-outline{
+    padding: 8px 10px 6px;
+    border: 2px solid #e9e6f1;
+    text-transform: uppercase;
+    font-size: 14.5px;
+}
+.disclaimer-text{
+    color: #a29cb2;
+    font-size: 18px;
+}
+
+.user-edit{
+  position: absolute;
+  bottom: -40px;
+  width: 175px;
+  text-align: center;
+  background: #fff;
+  padding: 0px 3px 0px;
+  border-radius: 10px;
+  left: -70px;
+  display: none;
+}
+.user-edit:after{
+        clear: both;
+    display: block;
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: url(../images/arrow-up.png);
+    width: 20px;
+    height: 10px;
+    top: -8px;
+    margin: 0 auto;
+    background-size: 100%;
+}
+.showBgHolder{
+     right: -41px;
+    left: auto;
+    width: 150px;
+    box-shadow: 2px 2px 6px #ccc;
+}
+.user-edit ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.user-edit ul li{
+  display: inline-block;
+}
+.user-edit ul li:first-child a{
+   border: none;
+   padding-left: 0;
+}
+.user-edit ul li a{
+  display: block;
+  border-left: 1px solid #f9a2a4;
+  padding: 5px 2px 3px;
+  color: #000;
+  padding-left: 7px;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.edit-profile-modal .modal-body{
+  padding: 0;
+  min-height: 400px;
+}
+.edit-profile-modal .modal-content{
+  border-radius: 10px;
+  border: none;
+  overflow: hidden;
+}
+.edit-profile-modal .modal-content .editable-banner{
+  padding: 30px 30px 60px;  
+  /*margin-bottom: 10px;*/
+}
+.edit-profile-modal .modal-content .editable-banner .edit-user-holder  img{
+  width: 25px;
+}
+.edit-profile-modal .modal-content .editable-banner .profile-text .btn-outline-secondry{
+  font-size: 11px;
+}
+.edit-profile-modal .edit-icon-i{
+  right: 30px;
+}
+.w-100-m{
+  width: 140px !important;
+  height: 140px !important;
+}
+.line-divider{
+  width: 100%;
+  border: 1px solid #e9e6f1;
+  height:1px;
+  position: relative;
+}
+.line-divider:after{
+    clear: both;
+    display: block;
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: url(../images/arrow-up-m.png);
+    width: 38px;
+    height: 20px;
+    top: -10px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-size: 100%;
+
+}
+.modal-lg{
+  max-width: 1080px;
+}
+.edit-profile-modal .nav{
+      justify-content: center
+}
+.edit-profile-modal .nav-link{
+  color: #000;
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 20px;
+  margin-right: 20px;
+}
+.edit-profile-modal .nav-link.active{
+  color: #bdb8ca;
+  border-bottom: 4px solid #d43b68
+}
+.tab-pattern{
+  text-align: center;
+  padding: 30px 8px 10px;
+}
+.tab-holder-m{
+  padding: 20px;
+}
+.tab-pattern img{
+  transition:all 0.3s;
+border: 2px solid transparent;
+}
+.tab-pattern img:hover{
+  border: 3px solid #e9769f;
+      width: 90%;
+    padding: 5px;
+    border-radius: 8px;
+}
+.pd-sm{
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 5px;
+}
+.btn-outline-secondary{
+    border: 2px solid #e9e6f1;
+    color: #030c36;
+    border-radius: 8px;
+    padding: 8px 30px 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.btn-outline-primary{
+  border: 2px solid #e2557a;
+  color: #e2557a;
+    border-radius: 8px;
+    padding: 8px 30px 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.btn-outline-primary:hover{
+  background: #e2557a;
+  color: #fff;
+  border-color:  #e2557a;
+}
+.tab-color{
+  padding: 30px 8px 10px;
+}
+.bg-banner-profile{
+  width: 100%;
+  height: 85px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+}
+.bg-banner-profile.bg-white{
+  border: 2px solid #e9e6f1
+}
+.bg-banner-profile.bg-green{
+ background: #28aa56
+}
+.bg-banner-profile.bg-s-blue{
+  background:  #2ba4f0
+}
+.bg-banner-profile.bg-blue{
+  background: #9a68e5
+}
+.bg-banner-profile.bg-orange{
+ background:  #fb9151
+}
+.bg-banner-profile.bg-yellow{
+  background: #fbb151
+}
+.bg-banner-profile.bg-red{
+  background:  #fb5951
+}
+.bg-banner-profile.bg-pink{
+  background: #fb5199
+}
+.bg-banner-profile.bg-pink-d{
+ background:  #e95389
+}
+.bg-banner-profile.bg-black{
+  background: #242327
+}
+.bg-color-holder{
+  background: #fff !important
+}
+.bg-color-holder .profile-text{
+  color: #000
+}
+.bg-color-holder .profile-text .btn-outline-secondry{
+    border: 1px solid #e9e6f1;
+    color: #030c36
+}
+.bg-color-holder .profile-text .btn-info{
+  background: #e5e6eb;
+  color: #000;
 }
